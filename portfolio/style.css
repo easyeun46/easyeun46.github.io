@@ -46,11 +46,16 @@ footer {
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
-.project .servbox,
 .contact .contact-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+}
+.project .servbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
   justify-content: space-between;
 }
 section .title {
