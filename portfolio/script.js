@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["데이터 분석가(DA)", "연구원(Researcher)", "프로덕트 오너(PO)"],
+        strings: ["데이터 분석가(DA)", "데이터 기획자(Data Strategy Planner)", "프로젝트 관리자(PM)"],
         typeSpeed: 60,
         backSpeed: 20,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["데이터 분석가(DA)","연구원(Researcher)", "프로덕트 오너(PO)"],
+        strings: ["데이터 분석가(DA)", "데이터 기획자(Data Strategy Planner)", "프로젝트 관리자(PM)"],
         typeSpeed: 60,
         backSpeed: 20,
         loop: true
